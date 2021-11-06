@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E4FA27</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#F32C96</color>
+ //page_1
+    <color name="backgrd">#2638EC</color>
+   <color name="dailogbox">#F16FA2</color>
+    <color name="butoncolor">#E81A15</color>
+    <color name="buttontextcolor">#031313</color>
+   <color name="page1_textcolor">#F57F17</color>
+    <color name="errortxt">#F80808</color>
+
+
+
+    //page
+    <color name="page2_button">#FFD600</color>
+    <color name="page2_text">#FD0E62</color>
+</resources>

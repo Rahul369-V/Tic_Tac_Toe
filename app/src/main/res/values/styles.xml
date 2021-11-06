@@ -1,0 +1,75 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="textstyle">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">#C7FB2D</item>
+        <item name="android:textStyle">italic|bold</item>
+    </style>
+    <style name="XO_PAGE_text">
+
+        <item name="android:textSize">25dp</item>bn/
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">#F3BB2F</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+        <item name="android:textStyle">bold|italic</item>
+
+    </style>
+    <style name="resettext">
+        <item name="android:textSize">25dp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:padding">10dp</item>
+
+    </style>
+    <style name="second_page1">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">#F8EE2B</item>
+    </style>
+
+
+<style name="second_page2">
+<item name="android:textSize">25dp</item>
+<item name="android:textStyle">bold|italic</item>
+<item name="textAllCaps">true</item>
+<item name="android:textColor">#00E5FF</item>
+</style>
+
+    <style name="update_msg">
+        <item name="android:textSize">20dp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">#ECC915</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+
+<style name="XO_PAGE_POINTS">
+    <item name="android:textSize">30dp</item>
+    <item name="android:textStyle">bold|italic</item>
+    <item name="android:textColor">#B3EA13</item>
+    <item name="android:gravity">center</item>
+
+
+</style>
+    <style name="X_O_COLOR">
+        <item name="android:textColor">#24FADD</item>
+        <item name="android:textSize">110dp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+
+
+
+
+
+</resources>

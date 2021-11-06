@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/backgroud1"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <CheckBox
+
+        android:id="@+id/music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="music"
+        android:textStyle="italic|bold"
+        android:textColor="@color/page1_textcolor"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image1"
+
+        android:layout_below="@+id/music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/title"
+
+
+        />
+    <ImageView
+
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/image1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/companylogoo"
+
+      />
+    <EditText
+        android:background="@drawable/shapes"
+        android:id="@+id/box1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Enter Your Name"
+      android:layout_margin="15dp"
+        android:padding="10dp"
+        android:layout_below="@+id/image2"/>
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="8dp"
+        android:layout_below="@+id/box1"
+       android:padding="5dp"
+      android:text="Do You Have Guds?!!!"
+       style="@style/textstyle"
+       />
+     <Button
+         android:background="@drawable/button_shapes"
+        android:id="@+id/button1"
+       android:layout_width="wrap_content"
+       android:layout_height="62dp"
+         android:padding="10dp"
+       android:layout_below="@+id/text1"
+         android:textStyle="italic"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="22dp"
+         android:textColor="@color/buttontextcolor"
+         android:text="INSANE MODE"
+         android:textSize="24dp"/>
+
+     <TextView
+         android:id="@+id/errortext"
+         android:textColor="@color/errortxt"
+         android:textStyle="bold"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/button1"
+         android:layout_marginTop="30dp"
+         android:textSize="22dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</RelativeLayout>

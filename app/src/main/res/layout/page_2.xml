@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/background2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text2"
+        style="@style/second_page1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+   <ImageView
+
+       android:id="@+id/domain"
+       android:layout_width="200dp"
+       android:layout_height="200dp"
+       android:layout_below="@+id/text2"
+       android:layout_centerHorizontal="true"
+       android:layout_marginRight="20dp"
+       android:layout_marginLeft="20dp"
+       android:src="@drawable/computer"
+       />
+
+<TextView
+    android:id="@+id/text3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    style="@style/second_page1"
+    android:layout_below="@+id/domain"
+    android:textColor="@color/page2_text"
+    android:textColorHighlight="#000"
+    android:text="x o (AI BRAIN)"/>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text3"
+        android:layout_marginTop="30dp"
+        android:text="select the Choice!!!!!"
+        style="@style/second_page2"
+        android:padding="10dp"
+
+        />
+
+
+
+    <Button
+        android:background="@drawable/button_shapes"
+        android:id="@+id/duals"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:padding="10dp"
+        android:layout_below="@+id/text4"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/page2_button"
+        android:text="DUAL"
+        android:textSize="24dp"/>
+
+    <Button
+        android:background="@drawable/button_shapes"
+        android:id="@+id/single_player"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+
+        android:layout_below="@+id/duals"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/page2_button"
+        android:text="Coming     Soon!!"
+        android:textSize="24dp"/>
+
+
+
+   <TextView
+       android:id="@+id/message"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/single_player"
+       android:layout_marginTop="15dp"
+       android:padding="5dp"
+
+       android:gravity="center_horizontal"
+       style="@style/update_msg"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

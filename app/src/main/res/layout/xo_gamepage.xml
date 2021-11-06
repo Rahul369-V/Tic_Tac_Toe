@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+
+android:layout_height="match_parent"
+
+android:orientation="vertical"
+    android:background="#5CE2E8"
+
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<ImageView
+        android:id="@+id/image4"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/vs_image"
+        />
+
+<TextView
+    android:id="@+id/text3"
+    style="@style/XO_PAGE_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="23dp"
+    android:layout_marginRight="-16dp"
+    android:text="HUMAN" />
+
+<ImageView
+
+    android:id="@+id/image5"
+    android:layout_width="129dp"
+    android:layout_height="130dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:src="@drawable/computerimage" />
+<Button
+
+    android:id="@+id/resetbtn"
+    android:layout_marginBottom="10dp"
+    android:text="restart"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/image5"
+    android:layout_centerHorizontal="true"
+    style="@style/resettext"
+    android:background="@drawable/button_shapes"/>
+
+   </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/game_template2">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+       >
+
+        <ImageButton
+            android:id="@+id/imagebutton1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/cross"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:id="@+id/imagebutton2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/cross"
+            android:background="@android:color/transparent"/>
+        <ImageButton
+        android:id="@+id/imagebutton3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+            android:src="@drawable/cross"
+            android:background="@android:color/transparent"/>
+         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:src="@drawable/cross"
+            android:background="@android:color/transparent"
+            >
+            <ImageButton
+                android:id="@+id/imagebutton4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/cross"
+                android:background="@android:color/transparent"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/imagebutton5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/imagebutton6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:id="@+id/imagebutton7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/imagebutton8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/imagebutton9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ai_image"
+    android:padding="10dp">
+
+
+
+    <ImageView
+
+        android:id="@+id/AI_DOMAIN"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="25dp"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/computer"
+        />
+    <TextView
+        android:id="@+id/PROFILE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AI_DOMAIN"
+     android:text="hi  welcome,my  name is xo(ai brain) ,i am the insane ai,you have to push past your limits to defeat me,but  i need some updates to wake up!!!!!!!            wait for days!!!!!..."
+        style="@style/update_msg"/>
+    <TextView
+        android:id="@+id/id5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PROFILE"
+        android:layout_margin="20dp"
+        style="@style/update_msg"
+        android:layout_centerHorizontal="true"
+        android:textColor="#78F113"
+
+        android:text="till play dual mode"/>
+
+    <Button
+        android:id="@+id/BTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shapes"
+        android:layout_below="@+id/id5"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#E1DCDC"
+        android:text="BACK"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"/>
+
+</RelativeLayout>
